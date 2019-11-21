@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.PcaAreasMapper">
+  <resultMap id="BaseResultMap" type="com.example.demo.bean.PcaAreas">
+    <!--@mbg.generated generated on Thu Nov 21 14:53:22 CST 2019.-->
+    <id column="area_id" jdbcType="VARCHAR" property="areaId" />
+    <result column="area_name" jdbcType="VARCHAR" property="areaName" />
+    <result column="city_id" jdbcType="VARCHAR" property="cityId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu Nov 21 14:53:22 CST 2019.-->
+    area_id, area_name, city_id
+  </sql>
+</mapper>
